@@ -10,15 +10,15 @@ import com.techsect.clashmate.R;
 /**
  * Created by hitenpratap on 4/8/15.
  */
-public class HomeFragment extends Fragment {
+public class NewsFragment extends Fragment {
 
-    public HomeFragment(){}
+    public NewsFragment(){}
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.fragment_home, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_news, container, false);
 
         return rootView;
     }

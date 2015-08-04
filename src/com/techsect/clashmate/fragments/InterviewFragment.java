@@ -10,15 +10,15 @@ import com.techsect.clashmate.R;
 /**
  * Created by hitenpratap on 4/8/15.
  */
-public class PagesFragment extends Fragment {
+public class InterviewFragment extends Fragment {
 
-    public PagesFragment(){}
+    public InterviewFragment(){}
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.fragment_pages, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_interview, container, false);
 
         return rootView;
     }

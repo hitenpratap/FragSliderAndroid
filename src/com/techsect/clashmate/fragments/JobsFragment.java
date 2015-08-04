@@ -10,15 +10,15 @@ import com.techsect.clashmate.R;
 /**
  * Created by hitenpratap on 4/8/15.
  */
-public class CommunityFragment extends Fragment {
+public class JobsFragment extends Fragment {
 
-    public CommunityFragment(){}
+    public JobsFragment(){}
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.fragment_community, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_jobs, container, false);
 
         return rootView;
     }

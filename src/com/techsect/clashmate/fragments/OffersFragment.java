@@ -10,15 +10,15 @@ import com.techsect.clashmate.R;
 /**
  * Created by hitenpratap on 4/8/15.
  */
-public class FindPeopleFragment extends Fragment {
+public class OffersFragment extends Fragment {
 
-    public FindPeopleFragment(){}
+    public OffersFragment(){}
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.fragment_find_people, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_offers, container, false);
 
         return rootView;
     }

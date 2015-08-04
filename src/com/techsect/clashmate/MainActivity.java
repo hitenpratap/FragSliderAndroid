@@ -53,7 +53,6 @@ public class MainActivity extends Activity {
         sliderMenuItems.add(new SliderMenuItem(navMenuTitles[3], navMenuIcons.getResourceId(3, -1), true, "22"));
         // Pages
         sliderMenuItems.add(new SliderMenuItem(navMenuTitles[4], navMenuIcons.getResourceId(4, -1)));
-        sliderMenuItems.add(new SliderMenuItem(navMenuTitles[5], navMenuIcons.getResourceId(5, -1), true, "50+"));
 
         navMenuIcons.recycle();
 
@@ -126,24 +125,20 @@ public class MainActivity extends Activity {
         Fragment fragment = null;
         switch (position) {
             case 0:
-                fragment = new HomeFragment();
+                fragment = new NewsFragment();
                 break;
             case 1:
-                fragment = new FindPeopleFragment();
+                fragment = new JobsFragment();
                 break;
             case 2:
-                fragment = new PhotosFragment();
+                fragment = new ForumFragment();
                 break;
             case 3:
-                fragment = new CommunityFragment();
+                fragment = new InterviewFragment();
                 break;
             case 4:
-                fragment = new PagesFragment();
+                fragment = new OffersFragment();
                 break;
-            case 5:
-                fragment = new WhatsHotFragment();
-                break;
-
             default:
                 break;
         }
