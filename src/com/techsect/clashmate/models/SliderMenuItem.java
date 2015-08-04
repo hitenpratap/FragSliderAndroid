@@ -1,5 +1,7 @@
 package com.techsect.clashmate.models;
 
+import com.techsect.clashmate.commons.Constants;
+
 /**
  * Created by hitenpratap on 4/8/15.
  */
@@ -8,7 +10,6 @@ public class SliderMenuItem {
     private String title;
     private int icon;
     private String count = "0";
-    // boolean to set visiblity of the counter
     private boolean isCounterVisible = false;
 
     public SliderMenuItem(){}
