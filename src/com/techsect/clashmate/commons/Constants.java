@@ -6,5 +6,6 @@ package com.techsect.clashmate.commons;
 public class Constants {
 
     public static String comingSoonText = "Coming Soon";
+    public static String montserratFontPath = "fonts/Montserrat-Regular.ttf";
 
 }
